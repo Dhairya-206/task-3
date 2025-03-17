@@ -1,1 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #F4F7FC;
+    text-align: center;
+}
+
+.container {
+    width: 80%;
+    margin: 20px auto;
+}
+
+h1 {
+    color: #2C3E50;
+}
+
+.board {
+    display: flex;
+    justify-content: space-around;
+}
+
+.column {
+    width: 30%;
+    background: white;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    background: #0073e6;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.task-list {
+    min-height: 100px;
+    padding: 10px;
+    border: 2px dashed #ccc;
+}
+
+.task {
+    background: #3498DB;
+    color: white;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    cursor: grab;
+}
+
+button {
+    background: #27AE60;
+    color: white;
+    border: none;
+    padding: 8px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background: #219150;
+}
 
